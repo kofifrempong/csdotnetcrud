@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kofifrempong/csharpcrud/crudInMacos/crudInMacos.csproj": {}
+    "/Users/kofifrempong/csdotnetcrud/crudInMacos/crudInMacos.csproj": {}
   },
   "projects": {
-    "/Users/kofifrempong/csharpcrud/crudInMacos/crudInMacos.csproj": {
+    "/Users/kofifrempong/csdotnetcrud/crudInMacos/crudInMacos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kofifrempong/csharpcrud/crudInMacos/crudInMacos.csproj",
+        "projectUniqueName": "/Users/kofifrempong/csdotnetcrud/crudInMacos/crudInMacos.csproj",
         "projectName": "crudInMacos",
-        "projectPath": "/Users/kofifrempong/csharpcrud/crudInMacos/crudInMacos.csproj",
+        "projectPath": "/Users/kofifrempong/csdotnetcrud/crudInMacos/crudInMacos.csproj",
         "packagesPath": "/Users/kofifrempong/.nuget/packages/",
-        "outputPath": "/Users/kofifrempong/csharpcrud/crudInMacos/obj/",
+        "outputPath": "/Users/kofifrempong/csdotnetcrud/crudInMacos/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kofifrempong/.nuget/NuGet/NuGet.Config"

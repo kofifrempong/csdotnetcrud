@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0TzgbMUffHyyGF+dSE/2nCNB+PBG7Z7RLUtVeBJlf1Qj78xKFuk69qRAYiOY0jWMkzbj4+nS0L3vogKn4oBuCA==",
+  "dgSpecHash": "FbmkFGEZJPA5j/mNgCJ6h/WfzWaVzbOoA4WyXupWftoI9u6IyXeb55WTb3RPZ9t7nWCe/URXCXvVywREXG1GjA==",
   "success": true,
-  "projectFilePath": "/Users/kofifrempong/csharpcrud/crudInMacos/crudInMacos.csproj",
+  "projectFilePath": "/Users/kofifrempong/csdotnetcrud/crudInMacos/crudInMacos.csproj",
   "expectedPackageFiles": [
     "/Users/kofifrempong/.nuget/packages/bouncycastle.netcore/1.8.5/bouncycastle.netcore.1.8.5.nupkg.sha512",
     "/Users/kofifrempong/.nuget/packages/google.protobuf/3.14.0/google.protobuf.3.14.0.nupkg.sha512",
