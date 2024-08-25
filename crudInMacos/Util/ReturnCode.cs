@@ -1,9 +1,7 @@
 ﻿using System;
 namespace crudInMacos
 {
-    /// <summary>
-
-    /// </summary>
+    
     public enum ReturnCode
     {
        CONNECTION_ERROR = 100,

@@ -40,6 +40,8 @@
             </th>
             <th><input type="text" id="name" placeholder="Name" class="form-control" /></th>
             <th><input type="text" id="age" placeholder="Age" class="form-control" /> </th>
+            <th><input type="text" id="gender" placeholder="Gender" class="form-control" /> </th>
+
             <th>
                 <button type="button" class="btn btn-primary" onclick="createRecord()">Create </button>
 
@@ -50,6 +52,7 @@
             <th>#</th>
             <th>Name</th>
             <th>Age</th>
+            <th>Gender</th>
             <th>Command</th>
         </tr>
     </thead>
@@ -63,6 +66,10 @@
                 </td>
                 <td scope="row">
                     <input type="text" id="@row.PersonId-age" placeholder="Age" class="form-control" value="@row.Age" />
+
+                </td>
+                <td scope="row">
+                    <input type="text" id="@row.PersonId-gender" placeholder="Gender" class="form-control" value="@row.Gender" />
 
                 </td>
                 <td>
@@ -88,7 +95,8 @@
             data: {
                 mode: "create",
                 name: $("#name").val(),
-                age:$("#age").val()
+                age:$("#age").val(),
+                gender:$("#gender").val()
             }, beforeSend() {
                 console.log("Waiiit waiit");
             }, success: function (data) {
@@ -109,6 +117,8 @@
                 mode: "update",
                 name: $("#" + personId + "-name").val(),
                 age: $("#" + personId + "-age").val(),
+                gender: $("#" + personId + "-gender").val(),
+
                 personId: personId
             }, beforeSend() {
                 console.log("Waiiit waiit");

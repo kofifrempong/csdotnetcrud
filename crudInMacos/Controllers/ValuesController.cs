@@ -29,7 +29,10 @@ namespace crudInMacos
 
             var name = Request.Form["name"];
             var age = Request.Form["age"];
+            var gender = Request.Form["gender"];
+
             var personId = Request.Form["personId"];
+            
 
             PersonRepository personRepository = new();
 
@@ -41,7 +44,7 @@ namespace crudInMacos
                 case "create":
                     try
                     {
-                        personRepository.Create(name, Convert.ToInt32(age));
+                        personRepository.Create(name, Convert.ToInt32(age), gender);
 
                         code = ((int)ReturnCode.CREATE_SUCCESS).ToString();
                         status = true;
@@ -71,7 +74,7 @@ namespace crudInMacos
                 case "update":
                     try
                     {
-                        personRepository.Update(name, Convert.ToInt32(age), Convert.ToInt32(personId));
+                        personRepository.Update(name, gender, Convert.ToInt32(age), Convert.ToInt32(personId));
                         code = ((int)ReturnCode.UPDATE_SUCCESS).ToString();
                         status = true;
 

@@ -18,7 +18,7 @@ namespace crudInMacos
                 .Build();
             _connectionString = configuration.GetSection("ConnectionStrings:DefaultConnection").Value;
         }
-        public void Create(String name, int age)
+        public void Create(String name, int age, String gender)
         {
 
 
@@ -32,11 +32,14 @@ namespace crudInMacos
 
                     mySqlTransaction = connection.BeginTransaction();
 
-                    string SQL = "INSERT INTO person VALUES (null,@name,@age);";
+                    string SQL = "INSERT INTO person VALUES (null,@name,@age, @gender);";
                     MySqlCommand mySqlCommand = new MySqlCommand(SQL, connection);
 
                     mySqlCommand.Parameters.AddWithValue("@name", name);
                     mySqlCommand.Parameters.AddWithValue("@age", age);
+                    mySqlCommand.Parameters.AddWithValue("@gender", gender);
+
+
                     mySqlCommand.ExecuteNonQuery();
 
                     mySqlTransaction.Commit();
@@ -79,7 +82,8 @@ namespace crudInMacos
                                 
                                 Name = reader["name"].ToString(),
                                 Age = Convert.ToInt32(reader["age"]),
-                                PersonId = Convert.ToInt32(reader["personId"])
+                                PersonId = Convert.ToInt32(reader["personId"]),
+                                Gender = reader["gender"].ToString()
                             });
                         }
                     }
@@ -98,7 +102,7 @@ namespace crudInMacos
 
             return personModels;
         }
-        public void Update(String name, int age, int personId)
+        public void Update(String name, String gender, int age, int personId)
         {
 
             MySqlTransaction mySqlTransaction = null;
@@ -116,6 +120,9 @@ namespace crudInMacos
                     mySqlCommand.Parameters.AddWithValue("@name", name);
                     mySqlCommand.Parameters.AddWithValue("@age", age);
                     mySqlCommand.Parameters.AddWithValue("@personId", personId);
+                    mySqlCommand.Parameters.AddWithValue("@gender", gender);
+
+
 
                     mySqlCommand.ExecuteNonQuery();
 
