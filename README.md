@@ -1,4 +1,4 @@
-Create, Read, Update, and Delete App using Asp.net, C#, and .NET Core 6 with MySQL.
+Create, Read, Update, and Delete App using Asp.net, C#, and .NET Core 8 with MySQL.
 
 Requires 
 
