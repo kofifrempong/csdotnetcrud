@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("crudInMacos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96715aa5b124610bba2e48436813efb58035e1b8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd283db9b88deb73e13834f4c6cc49fe493e3ce7")]
 [assembly: System.Reflection.AssemblyProductAttribute("crudInMacos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("crudInMacos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
