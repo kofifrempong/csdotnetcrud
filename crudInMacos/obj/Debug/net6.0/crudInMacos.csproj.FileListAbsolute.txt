@@ -80,9 +80,15 @@
 /Users/kofifrempong/csdotnetcrud/crudInMacos/obj/Debug/net6.0/staticwebassets.build.json
 /Users/kofifrempong/csdotnetcrud/crudInMacos/obj/Debug/net6.0/staticwebassets.development.json
 /Users/kofifrempong/csdotnetcrud/crudInMacos/obj/Debug/net6.0/scopedcss/bundle/crudInMacos.styles.css
-/Users/kofifrempong/csdotnetcrud/crudInMacos/obj/Debug/net6.0/crudInMacos.csproj.CopyComplete
 /Users/kofifrempong/csdotnetcrud/crudInMacos/obj/Debug/net6.0/crudInMacos.dll
 /Users/kofifrempong/csdotnetcrud/crudInMacos/obj/Debug/net6.0/refint/crudInMacos.dll
 /Users/kofifrempong/csdotnetcrud/crudInMacos/obj/Debug/net6.0/crudInMacos.pdb
 /Users/kofifrempong/csdotnetcrud/crudInMacos/obj/Debug/net6.0/crudInMacos.genruntimeconfig.cache
 /Users/kofifrempong/csdotnetcrud/crudInMacos/obj/Debug/net6.0/ref/crudInMacos.dll
+/Users/kofifrempong/csdotnetcrud/crudInMacos/obj/Debug/net6.0/crudInMacos.sourcelink.json
+/Users/kofifrempong/csdotnetcrud/crudInMacos/obj/Debug/net6.0/staticwebassets/msbuild.crudInMacos.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/kofifrempong/csdotnetcrud/crudInMacos/obj/Debug/net6.0/staticwebassets/msbuild.build.crudInMacos.props
+/Users/kofifrempong/csdotnetcrud/crudInMacos/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.crudInMacos.props
+/Users/kofifrempong/csdotnetcrud/crudInMacos/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.crudInMacos.props
+/Users/kofifrempong/csdotnetcrud/crudInMacos/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/kofifrempong/csdotnetcrud/crudInMacos/obj/Debug/net6.0/crudInMa.06FCABF0.Up2Date
